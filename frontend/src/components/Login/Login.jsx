@@ -6,7 +6,7 @@ const Login = ({ onLogin }) => {
     const [password, setPassword] = useState('');
 
     const handleLogin = () => {
-        if (email === 'admin@google.com' && password === '122024') {
+        if (email === 'admin@flipit.com' && password === '222324') {
             onLogin();
         } else {
             alert('Invalid email or password');
